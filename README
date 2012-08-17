@@ -1,0 +1,18 @@
+
+This is wm2jsPlus. It creates a /dev/input/js? device through uinput.
+
+This is only a simple hack over the original wm2js which can be found on
+https://trac.v2.nl/browser/andres/wm2js/
+
+It enables you to use your wiimote (new models, ending in -TR) and classic
+gamepad on your linux box as a normal joystick.
+
+As long as I don't own an old wiimote nor a nunchuk I don't know if
+any of these work, but I'm pretty sure nunchuk will not. You can use
+the original wm2js instead.
+
+Please take into account that the bluetooth address of the wiimote is
+hardcoded in wm2jsPlus.c. I know it's dirty, but I'm lazy. Maybe you
+can clean it a little.
+
+Manuel Gamallo <manuf_81@mixmail.com>
